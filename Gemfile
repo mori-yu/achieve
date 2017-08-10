@@ -52,3 +52,5 @@ gem 'sprockets'
 gem 'slim'
 
 gem 'sprockets-rails'
+
+gem 'rails_12factor', group: :production
