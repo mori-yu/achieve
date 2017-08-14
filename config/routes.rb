@@ -11,4 +11,5 @@ Rails.application.routes.draw do
   end
   
   root 'top#index'
+  get '/blogs/:id', to: 'blogs#destroy'
 end
