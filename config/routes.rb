@@ -13,4 +13,9 @@ Rails.application.routes.draw do
   
   root 'top#index'
   get '/blogs/:id', to: 'blogs#destroy'
+  
+  if Rails.env.development?
+    mount LetterOpenerWeb::Engine, at: "/letter_opener"
+  end
+
 end

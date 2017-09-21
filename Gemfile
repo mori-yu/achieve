@@ -61,3 +61,7 @@ gem 'devise'
 gem 'jquery-turbolinks'
 
 gem 'faker'
+
+group :development do
+  gem 'letter_opener_web'
+end
