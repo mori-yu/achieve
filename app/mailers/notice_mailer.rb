@@ -10,14 +10,14 @@ class NoticeMailer < ApplicationMailer
     
     @blog = blog
 
-    mail to: "imajin0707@outlook.jp",
+    mail to: "mori-yu@nttpc.co.jp",
          subject: '【Achieve】ブログが投稿されました'
   end
   
   def sendmail_contact(contact)
     @contact = contact
 
-    mail to: "imajin0707@outlook.jp",
+    mail to: "mori-yu@nttpc.co.jp",
          subject: '【Achieve】お問い合わせありがとうございます'
   end
 end
