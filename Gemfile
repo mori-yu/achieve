@@ -62,6 +62,12 @@ gem 'jquery-turbolinks'
 
 gem 'faker'
 
+gem 'rails_admin'
+
+gem 'cancan'
+
 group :development do
   gem 'letter_opener_web'
+  gem 'pry-rails'
+  gem 'better_errors'
 end
