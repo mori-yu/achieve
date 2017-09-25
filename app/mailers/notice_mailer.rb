@@ -5,13 +5,14 @@ class NoticeMailer < ApplicationMailer
   #
   #   en.notice_mailer.sendmail_blog.subject
   #
-  def sendmail_blog(blog,user_email)
+  def sendmail_blog(blog,user)
     @greeting = "Hi"
     
     @blog = blog
-    @user_email = user_email
+    @user = user
 
-    mail to: @user_email,
+    raise
+    mail to: @user.email,
          subject: '【Achieve】ブログが投稿されました'
   end
   
