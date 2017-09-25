@@ -11,7 +11,6 @@ class NoticeMailer < ApplicationMailer
     @blog = blog
     @user = user
 
-    raise
     mail to: @user.email,
          subject: '【Achieve】ブログが投稿されました'
   end
