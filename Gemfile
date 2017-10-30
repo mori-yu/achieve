@@ -75,6 +75,8 @@ gem 'omniauth-facebook'
 gem 'carrierwave'
 gem 'mini_magick'
 
+gem 'pusher'
+
 group :development do
   gem 'letter_opener_web'
   gem 'pry-rails'
