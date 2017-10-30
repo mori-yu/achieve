@@ -77,6 +77,10 @@ gem 'mini_magick'
 
 gem 'pusher'
 
+gem 'json', github: 'flori/json', branch: 'v1.8'
+
+gem 'fog'
+
 group :development do
   gem 'letter_opener_web'
   gem 'pry-rails'

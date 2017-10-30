@@ -1,0 +1,13 @@
+current directory: /Users/morishige_yu/Workspace/achieve/vendor/bundle/ruby/2.3.0/bundler/gems/json-7f4cfd853f2c/ext/json
+/Users/morishige_yu/.rbenv/versions/2.3.0/bin/ruby -r ./siteconf20171031-9187-1jywosb.rb extconf.rb
+creating Makefile
+
+current directory: /Users/morishige_yu/Workspace/achieve/vendor/bundle/ruby/2.3.0/bundler/gems/json-7f4cfd853f2c/ext/json
+make "DESTDIR=" clean
+
+current directory: /Users/morishige_yu/Workspace/achieve/vendor/bundle/ruby/2.3.0/bundler/gems/json-7f4cfd853f2c/ext/json
+make "DESTDIR="
+make: Nothing to be done for `all'.
+
+current directory: /Users/morishige_yu/Workspace/achieve/vendor/bundle/ruby/2.3.0/bundler/gems/json-7f4cfd853f2c/ext/json
+make "DESTDIR=" install
